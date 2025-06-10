@@ -17,7 +17,9 @@ class _ImplicitAnimationScreenState extends State<ImplicitAnimationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Implicit Animation'),
+        centerTitle: true,
+        backgroundColor: Colors.blueGrey[900],
+        title: const Text('Implicit Animation', style: TextStyle(color: Colors.white),),
       ),
       body: Center(
         child: GestureDetector(
