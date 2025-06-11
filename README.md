@@ -6,7 +6,7 @@ This app demonstrates the use of Implicit Animations in Flutter.
 - AnimatedContainer: A widget that automatically animates changes to its properties.
 - GestureDetector: A widget that detects user interactions and then triggers the animation.
 - Different properties: The app animates changes to the width, height, and color of a container.
-- Duration: 1-second duration for the animation
+- Duration: 1-second duration for the animation.
 
 ## How It Works
 1. When the user taps on the container, the `onTap` method in `GestureDetector` is triggered.
