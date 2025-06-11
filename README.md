@@ -22,3 +22,4 @@ To run this app, ensure you have Flutter installed and set up. Then, follow thes
 2. Open the project in your preferred IDE (e.g., VSCode, Android Studio).
 3. Run the app using `flutter run`.
 4. Tap on the container to see the implicit animations in action.
+5. Run `pub get` to ensure that all necessary dependencies are installed.
