@@ -32,6 +32,7 @@ class _ImplicitAnimationScreenState extends State<ImplicitAnimationScreen> {
           },
           child: AnimatedContainer(
             duration: const Duration(seconds: 1),
+            curve: Curves.easeInOut,
             width: _width,
             height: _height,
             color: _color,
